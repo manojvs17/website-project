@@ -1,0 +1,40 @@
+h2{
+  font-size: 50px;
+  text-align: center;
+}
+body {
+    background-color: rgb(243, 226, 224);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  } 
+  .product input {
+    margin-left: 30px;
+    font-size: 50px;
+    width: 50px;
+  }
+  
+  .total-amount {
+    margin-top: 20px;
+  }
+  .product img{
+    height: 75%;
+    width: 75%;
+  }
+  .product input[type="checkbox"] {
+    margin-right: 30px;
+    transform: scale(2.5); /* Adjust the scale value as needed to increase the size */
+  }
+  .product-selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .product {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the width as needed */
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 50px;
+    margin: 10px 0;
+  }
