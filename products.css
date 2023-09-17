@@ -147,6 +147,8 @@ a:hover{
     color: black;
   }
   .product{
+    height: max-content;
+    width: 30%;
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -228,4 +230,48 @@ button:active {
     font-size: 25px;
     font-family:Arial, Helvetica, sans-serif;
     color: #03045e;
+}
+                                                /* center content divide */
+.main{
+    display: flex;
+}
+.inner1{
+    flex: 2;
+}
+.inner2{
+    display: none;
+    flex: 1;
+    padding: 1%;
+    height: 100%;
+    width: 100%;
+    border: 4px solid black;
+}
+/* cart design */
+.cart-top{
+    display: flex;
+}
+.cart-title{
+    font-family: poppins;
+    font-size: 2em;
+    flex: 3;
+    background-color: #66ff66;
+}
+.cart-img{
+    margin-top: 5px;
+    flex: 1;
+    text-align: end;
+    font-size: 2em;
+    position: relative;
+}
+.count{
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: -15px;
+    left: 95px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+    background-color: #89128d;
 }
